@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#logo3 {
+    position: relative;
+    top: 15px;
+    left: 15%;
+    width: 50px;
+}
+
+.links {
+    position: relative;
+    left: 60%;
+    bottom: 20px;
+    width: 320px;
+}
+
+.contato,
+.endereço,
+.seguradoras,
+.produtos3 {
+    margin: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.hea {
+    display: inline-block;
+    position: relative;
+}
+
+header {
+    display: inline-block;
+    position: relative;
+    height: 500px;
+    z-index: 1;
+}
+
+.header4 {
+    position: relative;
+    top: 160px;
+    left: 20%;
+    z-index: 1;
+
+    height: 340px;
+}
+
+
+.texto-header {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+#logo1 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-p {
+    position: relative;
+    left: 15%;
+    top: 20px;
+    width: 50px;
+}
+
+.produtos {
+    position: relative;
+    left: 40%;
+    bottom: 25px;
+    width: 220px;
+}
+
+#produtos2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pro {
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+}
+
+.pro2 {
+    position: relative;
+    left: 100px;
+}
+
+.tos1, .tos2, .tos3, .tos4 {
+    margin: 30px;
+}
+
+
+#parcerias {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.seg2 {
+    position: relative;
+    left: 15%;
+    top: 20px;
+    width: 50px;
+}
+
+.seg {
+    position: relative;
+    left: 40%;
+    bottom: 20px;
+    width: 290px;
+}
+
+#seguradoras {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+
+.container1 {
+    display: flex;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    width: 360px;
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    left: 25%;
+    top: 30%;
+    width: 360px;
+}
+
+#motivo {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.mot {
+    position: relative;
+    left: 15%;
+    top: 20px;
+    width: 50px;
+}
+
+.mot2 {
+    position: relative;
+    left: 35%;
+    bottom: 20px;
+    width: 400px;
+}
+
+.texto-p {
+    position: relative;
+    left: 20%;
+    margin: 40px;
+    font-size: 15px;
+}
+
+.end {
+    position: relative;
+    left: 15%;
+    top: 20px;
+    width: 50px;
+}
+
+.end2 {
+    position: relative;
+    left: 40%;
+    bottom: 20px;
+    color: white;
+    width: 230px;
+}
+
+.end3 {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#mapbox {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+}
+
+iframe {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    top: 70px;
+}
+
+.logo4 {
+    position: relative;
+    left: 40%;
+    bottom: 20%;
+    width: 170px;
+}
+
+footer {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.fot {
+    position: relative;
+    left: 15%;
+    top: 35px;
+    width: 50px;
+}
+
+.fot2-link {
+    margin: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    position: relative;
+    left: 40%;
+    bottom: 10px;
+}
+
+.fot3 {
+    position: relative;
+    left: 60%;
+    bottom: 20px;
+    color: white;
+    bottom: 50px;
+    width: 360px;
+}
+
+.cont {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 54px;
+}
+
+
+header {
+    background-image: url(./img/carro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .links {
+        position: relative;
+        left: 20%;
+        bottom: 20px;
+    }
+
+    #logo3 {
+        position: relative;
+        top: 15px;
+        left: 7%;
+    }
+
+    .header4 {
+        width: 80%;
+        right: 20%;
+        ;
+        display: grid;
+        align-content: stretch;
+        justify-content: end;
+    }
+
+    .hea {
+        display: inline-block;
+        position: relative;
+        bottom: 150px;
+        left: 90px;
+    }
+
+    .texto-header {
+        bottom: 163px;
+        width: 380px;
+        margin: 10px;
+    }
+
+    #produtos2 {
+        display: block;
+        position: relative;
+        width: 405px;
+    }
+
+    .pro {
+        width: 376px;
+        display: contents;
+    }
+
+    .pro2 {
+        position: relative;
+        right: 100px;
+        display: contents;
+    }
+
+    .seg {
+        position: relative;
+        left: 28%;
+        bottom: 20px;
+
+    }
+
+    .seg2 {
+        position: relative;
+        left: 11%;
+        top: 20px;
+    }
+
+    #seguradoras {
+        display: inline-block;
+        width: 100%;
+        height: 372px;
+    }
+
+    .container1 {
+        display: block;
+        position: relative;
+        left: 10%;
+        top: 0%;
+    }
+
+    .container2 {
+        display: block;
+        position: relative;
+        left: 10%;
+        top: 0%;
+    }
+
+    .mot {
+        position: relative;
+        left: 80%;
+        top: 60px;
+    }
+
+    .mot2 {
+        position: relative;
+        left: 5%;
+        bottom: 35px;
+        width: 90%;
+    }
+
+    .texto-p {
+        position: relative;
+        left: 0%;
+        margin: 40px;
+        font-size: 15px;
+    }
+
+    .end2 {
+        position: relative;
+        left: 32%;
+        bottom: 20px;
+        color: white;
+    }
+
+    .logo4 {
+        position: relative;
+        left: 55%;
+        bottom: 123%;
+    }
+
+    iframe {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 13%;
+        top: 70px;
+    }
+
+    .wats {
+        position: relative;
+        bottom: 20px;
+        right: 90%;
+    }
+
+    .fot3 {
+        position: relative;
+        left: 7%;
+        color: white;
+        bottom: 15px;
+    }
+
+    .fot2-link {
+        margin: 10px;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        position: relative;
+        left: 73%;
+        bottom: 23px;
+        width: 50px;
+        height: 30px;
+    }
+
+    .fot {
+        position: relative;
+        left: 21%;
+        top: 25px;
+    }
+
+
+}
